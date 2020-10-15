@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7108846A2538CD1A00837B52 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710884692538CD1A00837B52 /* TableViewCell.swift */; };
+		710ECB402535FCA000719A94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710ECB3F2535FCA000719A94 /* AppDelegate.swift */; };
+		710ECB422535FCA000719A94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710ECB412535FCA000719A94 /* SceneDelegate.swift */; };
+		710ECB442535FCA000719A94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710ECB432535FCA000719A94 /* ViewController.swift */; };
+		710ECB472535FCA000719A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710ECB452535FCA000719A94 /* Main.storyboard */; };
+		710ECB492535FCA400719A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710ECB482535FCA400719A94 /* Assets.xcassets */; };
+		710ECB4C2535FCA400719A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710ECB4A2535FCA400719A94 /* LaunchScreen.storyboard */; };
+		710ECB5425360C2100719A94 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710ECB5325360C2100719A94 /* TableViewController.swift */; };
+		71F978672536112600536001 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F978662536112600536001 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		710884692538CD1A00837B52 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		710ECB3C2535FCA000719A94 /* Final Project - Deemah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project - Deemah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710ECB3F2535FCA000719A94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		710ECB412535FCA000719A94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		710ECB432535FCA000719A94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		710ECB462535FCA000719A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		710ECB482535FCA400719A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		710ECB4B2535FCA400719A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		710ECB4D2535FCA400719A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710ECB5325360C2100719A94 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		71F978662536112600536001 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		710ECB392535FCA000719A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710ECB332535FCA000719A94 = {
+			isa = PBXGroup;
+			children = (
+				710ECB3E2535FCA000719A94 /* Final Project - Deemah */,
+				710ECB3D2535FCA000719A94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		710ECB3D2535FCA000719A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710ECB3C2535FCA000719A94 /* Final Project - Deemah.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710ECB3E2535FCA000719A94 /* Final Project - Deemah */ = {
+			isa = PBXGroup;
+			children = (
+				710ECB3F2535FCA000719A94 /* AppDelegate.swift */,
+				710ECB412535FCA000719A94 /* SceneDelegate.swift */,
+				710ECB432535FCA000719A94 /* ViewController.swift */,
+				710ECB452535FCA000719A94 /* Main.storyboard */,
+				710884692538CD1A00837B52 /* TableViewCell.swift */,
+				71F978662536112600536001 /* File.swift */,
+				710ECB5325360C2100719A94 /* TableViewController.swift */,
+				710ECB482535FCA400719A94 /* Assets.xcassets */,
+				710ECB4A2535FCA400719A94 /* LaunchScreen.storyboard */,
+				710ECB4D2535FCA400719A94 /* Info.plist */,
+			);
+			path = "Final Project - Deemah";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		710ECB3B2535FCA000719A94 /* Final Project - Deemah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710ECB502535FCA400719A94 /* Build configuration list for PBXNativeTarget "Final Project - Deemah" */;
+			buildPhases = (
+				710ECB382535FCA000719A94 /* Sources */,
+				710ECB392535FCA000719A94 /* Frameworks */,
+				710ECB3A2535FCA000719A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final Project - Deemah";
+			productName = "Final Project - Deemah";
+			productReference = 710ECB3C2535FCA000719A94 /* Final Project - Deemah.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		710ECB342535FCA000719A94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "deemah saad aldaihane";
+				TargetAttributes = {
+					710ECB3B2535FCA000719A94 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 710ECB372535FCA000719A94 /* Build configuration list for PBXProject "Final Project - Deemah" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 710ECB332535FCA000719A94;
+			productRefGroup = 710ECB3D2535FCA000719A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				710ECB3B2535FCA000719A94 /* Final Project - Deemah */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710ECB3A2535FCA000719A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710ECB4C2535FCA400719A94 /* LaunchScreen.storyboard in Resources */,
+				710ECB492535FCA400719A94 /* Assets.xcassets in Resources */,
+				710ECB472535FCA000719A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		710ECB382535FCA000719A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F978672536112600536001 /* File.swift in Sources */,
+				710ECB442535FCA000719A94 /* ViewController.swift in Sources */,
+				710ECB402535FCA000719A94 /* AppDelegate.swift in Sources */,
+				7108846A2538CD1A00837B52 /* TableViewCell.swift in Sources */,
+				710ECB422535FCA000719A94 /* SceneDelegate.swift in Sources */,
+				710ECB5425360C2100719A94 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		710ECB452535FCA000719A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710ECB462535FCA000719A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		710ECB4A2535FCA400719A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710ECB4B2535FCA400719A94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		710ECB4E2535FCA400719A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		710ECB4F2535FCA400719A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		710ECB512535FCA400719A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project - Deemah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deemah.com.Final-Project---Deemah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		710ECB522535FCA400719A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project - Deemah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deemah.com.Final-Project---Deemah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		710ECB372535FCA000719A94 /* Build configuration list for PBXProject "Final Project - Deemah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710ECB4E2535FCA400719A94 /* Debug */,
+				710ECB4F2535FCA400719A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710ECB502535FCA400719A94 /* Build configuration list for PBXNativeTarget "Final Project - Deemah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710ECB512535FCA400719A94 /* Debug */,
+				710ECB522535FCA400719A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 710ECB342535FCA000719A94 /* Project object */;
+}
