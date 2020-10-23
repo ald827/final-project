@@ -9,18 +9,24 @@
 struct kinds{
     var kindName:String
     var list:[resturant]
-    var pics:String
+    var pics:String?
 }
+
+
+
 
 struct resturant{
     var restName:String
     var pics:String
 }
 
+
+
+
 var listRest:[kinds] =
-        [kinds(kindName: "ايطالي", list: [resturant(restName:"جار", pics: "جار"),resturant(restName: "سوليا", pics: "سوليا"),resturant(restName: "٤٠٠ قرادي", pics: "٤٠٠ قرادي"),resturant(restName: "فوشون", pics: "فوشون")], pics: "ايطاليا"),
-        kinds(kindName: "كويتي", list: [resturant(restName: "فريج صويلح", pics: "فريج صويلح"),resturant(restName: "الستينات", pics: "الستينات"),resturant(restName: "زوارة", pics: "زوارة"),resturant(restName: "دار جاسم", pics: "دار جاسم")],pics: "الكويت"),
-       kinds(kindName: "امريكي", list: [resturant(restName: "آي هوب", pics: "آي هوب"),resturant(restName: "تشيليز", pics: "تشيليز"),resturant(restName: "كينز", pics: "كينز"),resturant(restName: "فايف قايز", pics: "فايف قايز")], pics: "امريكا")]
+        [kinds(kindName: "Italy", list: [resturant(restName:"jar", pics: "jar"),resturant(restName: "Solya", pics: "Solya"),resturant(restName: "400 Gradi", pics: "400 Gradi"),resturant(restName: "Fuchon", pics: "Fuchon")], pics: "Italy"),
+        kinds(kindName: "Kuwaiti", list: [resturant(restName: "Freej Swaileh", pics: "Freej Swaileh"),resturant(restName: "Alstteenat", pics: "Alstteenat"),resturant(restName: "Zwara", pics: "Zwara"),resturant(restName: "Dar Jasem", pics: "Dar Jasem")],pics: "Kuwaiti"),
+       kinds(kindName: "American", list: [resturant(restName: "IHop", pics: "IHop"),resturant(restName: "Chili's", pics: "Chili's"),resturant(restName: "Cane's", pics: "Cane's"),resturant(restName: "Five Guys", pics: "Five Guys")], pics: "American")]
 
 
 

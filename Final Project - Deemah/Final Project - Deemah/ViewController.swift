@@ -9,15 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var selectedListRest:kinds!
+    var selectedListRest:[resturant]!
     
-    @IBOutlet weak var label: UIButton!
     
-    @IBOutlet weak var label2: UIButton!
+    @IBOutlet weak var b1: UIButton!
     
-    @IBOutlet weak var label3: UIButton!
+    @IBOutlet weak var b2: UIButton!
     
-    @IBOutlet weak var label4: UIButton!
+    @IBOutlet weak var b3: UIButton!
+    
+    @IBOutlet weak var b4: UIButton!
     
     
     @IBOutlet weak var image: UIImageView!
@@ -32,22 +33,33 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        image.image = UIImage(named: selectedListRest.list[0].pics)
-        image2.image = UIImage(named: selectedListRest.list[1].pics)
-        image3.image = UIImage(named: selectedListRest.list[2].pics)
-        image4.image = UIImage(named: selectedListRest.list[3].pics)
+        image.image  = UIImage(named: selectedListRest[0].pics)
+        image2.image = UIImage(named: selectedListRest[1].pics)
+        image3.image = UIImage(named: selectedListRest[2].pics)
+        image4.image = UIImage(named: selectedListRest[3].pics)
         
         
-        label.setTitle(selectedListRest.list[0].restName, for: .normal)
-        label2.setTitle(selectedListRest.list[1].restName, for: .normal)
-        label3.setTitle(selectedListRest.list[2].restName, for: .normal)
-        label4.setTitle(selectedListRest.list[3].restName, for: .normal)
+        b1.setTitle(selectedListRest[0].restName, for: .normal)
+        b2.setTitle(selectedListRest[1].restName, for: .normal)
+        b3.setTitle(selectedListRest[2].restName, for: .normal)
+        b4.setTitle(selectedListRest[3].restName, for: .normal)
         
         
         
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func bookb(_ sender: UIButton) {
+        
+        let restImg = selectedListRest[sender.tag].pics
+        print(sender.tag)
+        performSegue(withIdentifier: "details2", sender: restImg)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let VC = segue.destination as! book_VC
+        let sender = sender as! String
+        VC.selectedRestImg = sender
+    }
 
 }
 

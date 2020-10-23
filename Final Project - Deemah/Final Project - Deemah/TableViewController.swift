@@ -31,16 +31,17 @@ class TableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
+ 
         // Configure the cell...
-        cell.textLabel?.text = listRest[indexPath.row].kindName
-        cell.imageView?.image = UIImage(named:listRest[indexPath.row].pics)
+        cell.labell.text = listRest[indexPath.row].kindName
+        cell.imagee.image = UIImage(named:listRest[indexPath.row].pics!)
         return cell
     }
     
-
-    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
     // Override to support conditional editing of the table view.
 //    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
 //
@@ -48,8 +49,8 @@ class TableViewController: UITableViewController {
 //        return true
 //    }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let selectedRest = listRest[indexPath.row]
-                       performSegue(withIdentifier: "details", sender: selectedRest)
+        let selectedRest = listRest[indexPath.row].list
+           performSegue(withIdentifier: "details", sender: selectedRest)
     }
 
     /*
@@ -85,7 +86,8 @@ class TableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! ViewController
-                vc.selectedListRest = sender as! kinds
+        let sender = sender as! [resturant]
+                vc.selectedListRest = sender
          // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
