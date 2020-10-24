@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		710884692538CD1A00837B52 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		710ECB3C2535FCA000719A94 /* Final Project - Deemah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project - Deemah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710ECB3C2535FCA000719A94 /* Final Project - مطعم.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project - مطعم.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		710ECB3F2535FCA000719A94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		710ECB412535FCA000719A94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		710ECB432535FCA000719A94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		710ECB3D2535FCA000719A94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				710ECB3C2535FCA000719A94 /* Final Project - Deemah.app */,
+				710ECB3C2535FCA000719A94 /* Final Project - مطعم.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,7 +99,7 @@
 			);
 			name = "Final Project - Deemah";
 			productName = "Final Project - Deemah";
-			productReference = 710ECB3C2535FCA000719A94 /* Final Project - Deemah.app */;
+			productReference = 710ECB3C2535FCA000719A94 /* Final Project - مطعم.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -311,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "deemah.com.Final-Project---Deemah";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Final Project - مطعم";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -328,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "deemah.com.Final-Project---Deemah";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Final Project - مطعم";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
